@@ -309,7 +309,7 @@
     "@babel/helper-create-class-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-proposal-decorators@^7.16.4":
+"@babel/plugin-proposal-decorators@^7.16.4", "@babel/plugin-proposal-decorators@^7.24.7":
   version "7.24.7"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.24.7.tgz#7e2dcfeda4a42596b57c4c9de1f5176bbfc532e3"
   integrity sha512-RL9GR0pUG5Kc8BUWLNDm2T5OpYwSX15r98I0IkgmRQTXuELq/OynH8xtMTMvTJFjXbMWFVTKtYkTaYQsuAwQlQ==
@@ -7970,11 +7970,14 @@ react-3layer-axios-observable@^1.0.2:
     rxjs "^7.8.1"
     typescript "^5.5.4"
 
-react-3layer-decorators@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.0.tgz#251c342aff461eb8ff44e8745d61ecaf99f23c02"
-  integrity sha512-+2KqWRpZUOzzzhbVilpqBXcnlO4jU9x+43CQ6S8BDx1QaHRiWX9Fly7oLGFMW3RyV/op2Tc87ii1wRS3/tJTTQ==
+react-3layer-decorators@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.2.tgz#a7ffca3e845166b9ac82ada461538a0214879e0a"
+  integrity sha512-/sJkKSmG+FRh/fPT+AsdWKQFFyhtpDt0r9hhJw+bA2dhxONMRByJO37HnOthfZ2AGcAR+qwK2NqDB/7XIDy+tg==
   dependencies:
+    "@babel/plugin-proposal-decorators" "^7.24.7"
+    "@babel/plugin-syntax-decorators" "^7.24.7"
+    "@babel/plugin-transform-class-properties" "^7.25.4"
     moment "^2.30.1"
     reflect-metadata "^0.2.2"
     rollup "^4.21.0"

@@ -21,6 +21,7 @@ export declare namespace Model {
  */
 export class Model {
   public errors?: Model.Errors<Model>;
+  [key: string]: any;
 
   /**
    * Create an instance of this class with its prototype
