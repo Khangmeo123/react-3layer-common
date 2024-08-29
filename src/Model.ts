@@ -21,6 +21,8 @@ export declare namespace Model {
  */
 export class Model {
   public errors?: Model.Errors<Model>;
+
+  // for field not declare
   [key: string]: any;
 
   /**
