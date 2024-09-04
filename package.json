@@ -21,9 +21,6 @@
     "typescript": "^5.5.4",
     "web-vitals": "^2.1.4"
   },
-  "engines" : { 
-    "node" : ">=18.0.0"
-  },
   "scripts": {
     "build": "rollup -c",
     "dev": "./dist/index.js\"",
