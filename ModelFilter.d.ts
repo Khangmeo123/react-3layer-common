@@ -4,7 +4,7 @@ import { OrderType } from './OrderType';
 export declare class ModelFilter extends Model implements Pagination {
     orderBy?: string;
     orderType?: OrderType;
-    skip?: number;
-    take?: number;
+    pageIndex?: number;
+    pageSize?: number;
     search?: string;
 }

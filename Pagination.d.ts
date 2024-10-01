@@ -1,7 +1,7 @@
 import type { OrderType } from './OrderType';
 export declare class Pagination {
-    skip?: number;
-    take?: number;
+    pageIndex?: number;
+    pageSize?: number;
     orderBy?: string;
     orderType?: OrderType;
 }

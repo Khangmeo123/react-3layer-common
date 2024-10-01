@@ -238,13 +238,13 @@ class ModelFilter extends Model {
             writable: true,
             value: void 0
         });
-        Object.defineProperty(this, "skip", {
+        Object.defineProperty(this, "pageIndex", {
             enumerable: true,
             configurable: true,
             writable: true,
             value: void 0
         });
-        Object.defineProperty(this, "take", {
+        Object.defineProperty(this, "pageSize", {
             enumerable: true,
             configurable: true,
             writable: true,
@@ -269,11 +269,11 @@ __decorate([
 __decorate([
     react3layerDecorators.Field(Number),
     __metadata("design:type", Number)
-], ModelFilter.prototype, "skip", void 0);
+], ModelFilter.prototype, "pageIndex", void 0);
 __decorate([
     react3layerDecorators.Field(Number),
     __metadata("design:type", Number)
-], ModelFilter.prototype, "take", void 0);
+], ModelFilter.prototype, "pageSize", void 0);
 __decorate([
     react3layerDecorators.Field(String),
     __metadata("design:type", String)

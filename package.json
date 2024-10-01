@@ -1,6 +1,6 @@
 {
   "name": "react-3layer-common",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

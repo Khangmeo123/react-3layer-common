@@ -3,10 +3,10 @@ import { Field } from 'react-3layer-decorators/Field';
 
 export class Pagination {
   @Field(Number)
-  skip?: number;
+  pageIndex?: number;
 
   @Field(Number)
-  take?: number;
+  pageSize?: number;
 
   @Field(String)
   orderBy?: string;

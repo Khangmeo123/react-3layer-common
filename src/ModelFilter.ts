@@ -11,10 +11,10 @@ export class ModelFilter extends Model implements Pagination {
   public orderType?: OrderType;
 
   @Field(Number)
-  public skip?: number;
+  public pageIndex?: number;
 
   @Field(Number)
-  public take?: number;
+  public pageSize?: number;
 
   @Field(String)
   public search?: string;
